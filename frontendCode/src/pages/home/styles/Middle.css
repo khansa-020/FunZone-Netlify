@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'playfair Display';
+}
+.container{
+    display: flex;
+    align-items: center;
+    background-color: #E01A4F;
+    width: 80%;
+    height: 159px;
+    border-radius: 25px;
+    margin-top: 2rem;
+    color: #fff;
+}
+.anime{
+    margin-top: 9%;
+    margin-left: -8%;
+
+}
+.projectCards{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.myCard{
+    height: 183px;
+    width: 183px;
+    margin-top: 1px;
+    padding-top: 27px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    }

@@ -1,0 +1,57 @@
+.searchDrawerbtn {
+  margin-left: 0.5rem;
+  border: 1px solid;
+  padding: 0.25rem;
+  border-radius: 50%;
+  background-color: var(--color-primary);
+  color: #fff;
+  box-shadow: 1px 0px 4px var(--color-primary);
+}
+.navmessages {
+  display: grid;
+  grid-template-columns: 18vw auto 16vw 2vw;
+  column-gap: 2rem;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+}
+/* CustomDropdown.css */
+
+.custom-dropdown {
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  position: relative;
+}
+
+.custom-dropdown .bell-icon {
+  margin-left: 7%;
+}
+
+.custom-dropdown .badge {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  font-size: 12px;
+  background-color: #007bff;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 50%;
+}
+
+.custom-dropdown .dropdown-menu {
+  min-width: 250px;
+}
+
+.custom-dropdown .dropdown-item {
+  font-size: 14px;
+  padding: 10px;
+}
+
+.custom-dropdown .dropdown-item:hover,
+.custom-dropdown .dropdown-item:focus {
+  background-color: #f8f9fa;
+  color: #000;
+}

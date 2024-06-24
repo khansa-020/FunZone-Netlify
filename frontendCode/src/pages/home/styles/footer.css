@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+html{
+    font-size: 62.5%;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.footer{
+    margin-top: 3rem;
+}
+.footer, ul{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-around;
+}
+ul li a{
+    padding-left: 2rem;
+}

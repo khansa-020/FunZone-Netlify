@@ -1,0 +1,78 @@
+.single{
+    display: flex;
+    width: 100%;
+    .singleContainer{
+        flex: 6;
+        .top{
+            display: flex;
+            flex-wrap: wrap;
+            padding: 5rem;
+            gap: 5rem;
+            .leftTop{
+                flex: 1;
+                -webkit-box-shadow:2px 4px 10px 1px rgba(0,0,0,0.47);
+                box-shadow:2px 4px 10px 1px rgba(201,201,201,0.47); 
+                padding: 2rem;
+                position: relative;
+                .editButton{
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    padding: 1rem;
+                    font-size: 1rem;
+                    color: var(--color-primary);
+                    background-color:var(--color-grey);
+                    cursor: pointer;
+                    border-radius: 0 0 0 1rem;
+                }
+                .item{
+                    display: flex;
+                    gap: 5rem;
+                    .itemImg{
+                        width: 5rem;
+                        height: 5rem;
+                        border-radius: 50%;
+                        object-fit: cover;
+                    }
+                    .details{
+                        .itemTitle{
+                            margin-bottom: 1rem;
+                            font-size: 1.5rem;
+                            color: var(--color-gray);
+                        }
+                        .detailItem{
+                            margin-bottom: 1rem;
+                            font-size: 1rem;
+                            .itemKey{
+                                font-weight: bold;
+                                color: gray;
+                                margin-right: 0.5rem;
+                            }
+                            .itemValue{
+                                font-weight: 300;
+                            }
+                        }
+                    }
+                }
+            }
+            .rightTop{
+                flex: 2;
+                // -webkit-box-shadow:2px 4px 10px 1px rgba(0,0,0,0.47);
+                // box-shadow:2px 4px 10px 1px rgba(201,201,201,0.47); 
+                // padding: 2rem;
+            }
+        }
+    
+.bottom{
+    -webkit-box-shadow:2px 4px 10px 1px rgba(0,0,0,0.47);
+               box-shadow:2px 4px 10px 1px rgba(201,201,201,0.47); 
+               padding: 2rem;
+               margin: 0 1rem;
+
+}
+.title{
+font-size: 1.3rem;
+color: lightgrey;
+}
+    }
+}

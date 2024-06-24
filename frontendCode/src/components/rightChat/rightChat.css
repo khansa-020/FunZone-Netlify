@@ -1,0 +1,36 @@
+.searchIcon{
+    font-size: 2rem;
+}
+.searchUser{
+    position: absolute;
+    top: 35%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    font-size: 1.3rem;
+    background: transparent;
+    width: 5rem;
+    height: 5rem;
+    padding: 2rem;
+    border:solid 3px var(--color-primary);
+    outline: none;
+    border-radius: 35px;
+    transition: all 0.5s;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 var(--color-primary);
+}
+.searchUser::placeholder{
+    color: #666;
+    opacity: 0;
+    transition:  opacity 150ms ease-out;
+}
+.searchUser:focus::placeholder{
+    opacity: 1;
+}
+.searchUser:hover{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 var(--color-secondary);
+}
+.searchUser:focus,
+.searchUser:not(:placeholder-shown){
+    width:20rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 var(--color-secondary);
+}

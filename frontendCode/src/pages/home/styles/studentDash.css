@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'playfair Display';
+}
+.studentDash{
+    display: grid;
+    grid-template-columns: 18rem auto 26rem;
+}
+@media(max-width:786px){
+    .studentDash{
+        
+        grid-template-columns:18rem 10rem;
+        
+    }
+}

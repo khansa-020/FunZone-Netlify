@@ -1,0 +1,61 @@
+.diamond-wrapper {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+
+.diamond {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-color: #c4f7b8;
+  transform: rotate(45deg);
+  margin: 0 auto;
+}
+
+.diamond-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.diamond-content svg {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 0.5rem;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.task-info {
+  flex: 1;
+  margin-right: 1rem;
+}
+
+.task-title {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.task-date {
+  font-size: 0.9rem;
+  color: #999;
+}
+
+.task-actions {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

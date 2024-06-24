@@ -1,0 +1,87 @@
+/* ScheduleMeeting.css */
+
+.schedule-meeting-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  /* background-color: #f5f5f5; */
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.supervisor-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.supervisor-details h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.supervisor-details h3 {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.datetime-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.date-picker,
+.time-picker {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  margin-bottom: 10px;
+  width: 200px;
+}
+
+.check-availability-btn,
+.schedule-now-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.check-availability-btn {
+  margin-bottom: 10px;
+  background-color: #ffc107;
+}
+
+.schedule-now-btn {
+  background-color: #28a745;
+}
+
+/* Responsive Styling */
+
+@media screen and (max-width: 600px) {
+  .supervisor-details {
+    width: 100%;
+  }
+
+  .date-picker,
+  .time-picker {
+    width: 100%;
+  }
+}

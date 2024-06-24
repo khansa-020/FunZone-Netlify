@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="javascript">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email Verification</title>
+    <head>
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      />
+    </head>
+
+    <style>
+      body {
+        background-color: rgb(189, 228, 189);
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      .veriContainer {
+        width: 80%;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        flex-direction: column;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 50%;
+        border-radius: 25px;
+      }
+      .verfied {
+        color: rgb(33, 197, 33);
+        font-size: 2rem;
+      }
+      .verifyIcon {
+        font-size: 5rem;
+      }
+      @media (max-width: 746px) {
+        .verfied {
+          font-size: 1rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="veriContainer">
+      <i class="fas fa-check-circle verifyIcon" style="color: green"></i>
+      <h1 class="verfied">Your Email has been verified</h1>
+    </div>
+  </body>
+</html>

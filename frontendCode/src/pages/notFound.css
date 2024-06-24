@@ -1,0 +1,26 @@
+.NotFoundContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.ContentWrapper {
+  text-align: center;
+  padding-top: 20%;
+}
+
+.BackgroundImage {
+  background-image: url("./../../../frontend/src/images/NotFoundPage.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+}
+.notFoundButn {
+  background-color: #fb6562;
+  padding: 1%;
+  border-radius: 15px;
+  color: #fff;
+}

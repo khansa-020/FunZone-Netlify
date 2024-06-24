@@ -1,0 +1,30 @@
+.about {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .about {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .abouttext {
+    font-size: 1rem;
+  }
+}
+
+.aboutcontent {
+  margin-top: 10%;
+  flex: 1;
+}
+
+.aboutimg {
+  flex: 1;
+  margin-top: -5%;
+}
+
+.abouttext {
+  font-size: 2rem;
+  text-align: justify;
+  margin: 0 2%;
+}

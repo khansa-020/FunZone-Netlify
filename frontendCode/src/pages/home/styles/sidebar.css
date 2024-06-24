@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'playfair Display';
+}
+
+.sidebar{
+   
+    background: #FFFFFF;
+    box-shadow: 0px 7px 29px rgba(186, 186, 186, 0.25);
+    padding-top: 13%;
+
+
+}
+.menu{
+    margin-left: 25%;
+}
+.menuItem{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 8%;
+    transition: 0.5s;
+    cursor:context-menu;
+}
+.active{
+    background-color: #FEEEEC;
+    border-radius: 8px;
+    color:#E01A4F;
+    cursor: pointer;
+}
+.logout{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-left: 1rem;
+    margin-top: 5rem;
+    margin-bottom: 15%;
+}
+@media(max-width:786px){
+    
+    .sidebar{
+        display: none;
+    }
+}

@@ -1,0 +1,17 @@
+.profile{
+    position: relative;
+    display: grid;
+    grid-template-columns: 20vw auto 20vw;
+    gap:1rem;
+}
+.profile-center{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+@media(max-width:992px){
+   
+    main .Container .infoCard{
+        display: none;
+    }
+}

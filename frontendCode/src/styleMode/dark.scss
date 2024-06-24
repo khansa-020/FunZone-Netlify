@@ -1,0 +1,137 @@
+.app.dark {
+  background-color: hsl(252, 30%, 10%) !important ;
+  height: 200vh;
+  // background:hsl(252,30%,10%) ;
+  color: rgb(230, 230, 230);
+  // admin dashboard
+  .chartGrid {
+    stroke: rgba(216, 215, 215, 0.178);
+  }
+  .table {
+    background-color: #111;
+    #tasks tr:nth-child(even) {
+      background-color: rgb(48, 48, 48);
+    }
+    #tasks th {
+      color: var(--color-light);
+    }
+  }
+  .adminNavbar {
+    color: #999;
+    border-color: #333;
+    .adminSearch {
+      border-color: gray;
+    }
+  }
+  .adminSidebar {
+    background-color: hsl(252, 30%, 10%);
+    border-color: #333;
+    hr {
+      border-color: #333;
+    }
+    ul {
+      li {
+        &:hover {
+          background-color: #333;
+        }
+        // .icon{
+        //     color: var(--color-gray);
+        // }
+      }
+    }
+  }
+  .dataTable {
+    .datagrid {
+      color: gray;
+      border: none;
+      .viewButton,
+      .deleteButton {
+        color: gray;
+        border-color: gray;
+      }
+      .cellWithStatus {
+        background-color: #111;
+        &.active {
+          color: green;
+        }
+        &.pending {
+          color: rgb(248, 185, 11);
+        }
+        &.passive {
+          color: rgb(192, 97, 8);
+        }
+      }
+    }
+  }
+  .projForm,
+  .projInput {
+    background-color: #100d1a;
+  }
+  .projInput {
+    color: #666666;
+  }
+  textarea,
+  input {
+    background-color: #1d1b2e;
+    color: #fff;
+  }
+  h1,
+  h5 {
+    color: #999;
+  }
+  .ant-table-tbody {
+    background-color: #151221;
+    color: #fff;
+  }
+  .ant-table-tbody > tr:hover > td {
+    background-color: #39383d;
+    color: #fff;
+  }
+  .card {
+    background-color: #151221;
+    color: #fff;
+    border: 1px solid black;
+  }
+  .ant-tabs-tab-btn {
+    color: rgb(230, 230, 230);
+  }
+  .ant-table-thead > tr > th {
+    background-color: #23212b;
+    color: #fff;
+  }
+  // student dashboard
+  .profMod {
+    .mantine-Paper-root {
+      background-color: #333;
+    }
+
+    .mantine-Modal-body {
+      background-color: #333;
+      color: #fff;
+    }
+  }
+  .left .sidebar,
+  .right .messages,
+  .postShare,
+  .post,
+  .infoCard,
+  .left .sidebar .active {
+    background-color: hsl(252, 30%, 10%);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  nav {
+    background-color: rgb(13, 13, 22);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  }
+  .postShare > div > input,
+  .right .messages .search-bar {
+    background-color: #181525;
+  }
+  .left .sidebar .menu-item:hover {
+    background: #222;
+  }
+  #tasks tr:nth-child(even) {
+    background: #222;
+  }
+}

@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "playfair-Display";
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  .heroSection{
+    /* width: 108rem;
+    height: 40.4rem; */
+    margin-top: 1rem;
+    background: #F15946;
+    /* border-radius: 2.5rem; */
+    /* justify-content: center; */
+    
+    align-items: center;
+    width: auto;
+    height: 50vh;
+  display: flex;
+  }
+  .heroText{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 3.8rem;
+    /* or 106% */
+    text-align: left;
+    letter-spacing: 0.03rem;
+    margin-left: 2rem;
+    color: #FFFFFF;
+  }
+  .getStarted{
+    /* position: absolute; */
+    width: 21.3rem;
+    height: 5.6rem;
+    margin-left: 5%;
+    margin-top: 25px;
+    border: none;
+    background: #FFFFFF;
+    box-shadow: 0px 7px 29px rgba(186, 186, 186, 0.25);
+    border-radius: 1.5rem;
+    font-weight: 700;
+font-size: 1.8rem;
+line-height: 2.4rem;
+/* identical to box height */
+
+
+color: #F15946;
+  }
+  .animated{
+    animation: MoveUpDown 6s linear infinite;
+  }
+  @keyframes MoveUpDown {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-60px);
+    }
+  
+}
+.heroimg{
+  display: block;
+  /* max-width:600px;
+  max-height:487px; */
+  /* width: 600px; height: auto; */
+  /* margin-left:45rem; */
+  margin-top:15rem;
+  width: 30%;
+  margin-left: auto;
+  height: auto;
+  object-fit: cover;
+}
+.getStarted:hover{
+  border: 2px solid #fff;
+  background-color:transparent ;
+  color: #FFFFFF;
+  transition: 0.5s;
+}
+@media (max-width: 998px) {
+    html{
+        font-size: 50%;
+    }
+    .heroText{
+      font-size: 2rem;
+    }
+    .getStarted{
+      position: absolute;
+      width: 15.3rem;
+      height: 5rem;
+      left: 15.3rem;
+      top: 31rem;
+    }
+}
+@media (max-width: 520px) {
+    html{
+        font-size: 45%;
+    }
+    .getStarted{
+      position: absolute;
+      width: 15.3rem;
+      height: 4rem;
+      left: 3.3rem;
+      top: 30rem;
+    }
+}

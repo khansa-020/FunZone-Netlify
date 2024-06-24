@@ -1,0 +1,27 @@
+.admin{
+    display: flex;
+    .adminContainer{
+        flex: 6;
+        .widgets, .charts{
+            display: flex;
+            padding: 5rem;
+            gap: 5rem;
+            flex-wrap: wrap;
+        }
+        .charts{
+            padding:0.05rem 4rem;
+        }
+        .listContainer{
+            -webkit-box-shadow:2px 4px 10px 1px rgba(0,0,0,0.47);
+            box-shadow:2px 4px 10px 1px rgba(201,201,201,0.47); 
+            padding: 2rem;
+            margin: 2rem;
+            .listTitle{
+                font-weight: 500;
+                color: gray;
+                margin-bottom: 1.5rem;
+            }
+        }
+
+    }
+}

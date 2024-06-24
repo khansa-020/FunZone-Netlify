@@ -1,0 +1,89 @@
+.left .sidebar {
+  margin-top: 1rem;
+  background: var(--color-white);
+  border-radius: var(--card-border-radius);
+}
+.left .sidebar .menu-item {
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  cursor: pointer;
+  transition: all 300ms ease;
+  position: relative;
+}
+.left .sidebar .menu-item:hover {
+  background: var(--color-light);
+}
+.left .sidebar i,
+.left .sidebar h3 {
+  font-size: 1.4rem;
+  color: var(--color-gray);
+  margin-left: 2rem;
+  position: relative;
+}
+.left .sidebar i {
+  font-size: 0.85rem!;
+}
+.left .sidebar h3 {
+  margin-left: 1.5rem;
+  font-size: 0.85rem!;
+  text-decoration: none;
+}
+
+.left .sidebar .active {
+  /* background:var(--color-light); */
+  background: hsl(7deg 100% 98%);
+}
+.left .sidebar .active i,
+.left .sidebar .active h3 {
+  color: var(--color-primary);
+}
+
+.left .sidebar .active::before {
+  content: "";
+  display: block;
+  width: 0.5rem;
+  height: 100%;
+  position: absolute;
+  background: var(--color-primary);
+}
+.left .sidebar .menu-item:first-child.active {
+  border-top-left-radius: var(--card-border-radius);
+  overflow: hidden;
+}
+.left .sidebar .menu-item:last-child.active {
+  border-bottom-left-radius: var(--card-border-radius);
+  overflow: hidden;
+}
+.left .butn {
+  margin-top: 1rem;
+  width: 100%;
+  text-align: center;
+  padding: 1rem 0;
+  margin-left: 0rem;
+}
+.bottom {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+}
+
+.colorOption {
+  width: 100%;
+  height: 3.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--color-primary);
+  cursor: pointer;
+}
+.colorOption:nth-child(1) {
+  background-color: var(--color-white);
+}
+.colorOption:nth-child(2) {
+  background-color: var(--color-black);
+}
+h4 {
+  margin-bottom: 2%;
+  font-size: 1rem;
+}

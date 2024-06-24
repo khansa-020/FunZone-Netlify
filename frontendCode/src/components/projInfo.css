@@ -1,0 +1,30 @@
+.instructions {
+  padding: 20px;
+}
+
+h5 {
+  text-align: center;
+  color: #333;
+}
+h4 {
+  color: rgb(112, 111, 111);
+}
+h4,
+h5 {
+  font-weight: bold;
+}
+
+ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+li strong {
+  color: #333;
+}
+.li {
+  color: red;
+}
+li {
+  font-size: 14px;
+  margin-bottom: 5px;
+}

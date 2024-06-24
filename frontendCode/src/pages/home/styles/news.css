@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.news{
+    background-color: #F15946;
+    color: white;
+    font-size: 2.5rem;
+    margin:2% 0;
+    text-align: justify;
+    /* padding:0 3% ; */
+
+}
+.news p{
+    width: 80%;
+    margin: auto;
+}
+.date{
+    font-size: 1.5rem;
+   
+}

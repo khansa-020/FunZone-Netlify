@@ -1,0 +1,16 @@
+.chatContainer {
+  display: grid;
+  grid-template-columns: 24vw auto;
+  column-gap: 2rem;
+  position: relative;
+}
+@media (max-width: 1200px) {
+  .chatContainer {
+    grid-template-columns: 35vw auto;
+  }
+}
+@media (max-width: 992px) {
+  .chatContainer {
+    grid-template-columns: 40vw auto;
+  }
+}
